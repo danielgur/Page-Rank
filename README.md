@@ -1,4 +1,4 @@
-**Page Rank**
+#Page Rank
 
 To run, open the project in Eclipse and then select Run, then Run Configuration 
 The program arguments need to be "nodes.txt edges.txt output 5".
