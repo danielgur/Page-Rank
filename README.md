@@ -2,11 +2,19 @@
 
 ##To run on on Eclipse
 
-To run, open the project in Eclipse and then select Run, then Run Configuration 
-The program arguments need to be "nodes.txt edges.txt output 5".
+Program Arguments: 'nodes' 'edges' 'output_folder' 'number_of_iterations'
 
-Instead of 5 any number greater than 0 can be used to be used for the number of iterations.
+Example: "nodes.txt edges.txt output 5"
 
 ##To run on EC2
-Working on ec2, but the code has all the modifications commented out because it won't run in eclipse. 
+Steps to run on EC2:
+
+1.  Login to cluster
+2.  Send files from local machine to remote cluster
+3.  (Optional) wget http://socialcomputing.asu.edu/uploads/1296759055/Twitter-dataset.zip and unzip the Twitter dataset. 
+4.  Copy your nodes and edges dataset's to HDFS
+5.  To run (example), type: hadoop jar PageRank.jar nodes.txt edges.txt output 5
+
+
+###Enjoy, and happy hadooping :)
 
