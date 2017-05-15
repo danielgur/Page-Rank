@@ -1,12 +1,12 @@
-#Page Rank (Hadoop)
+# Page Rank (Hadoop)
 
-##To run on on Eclipse
+## To run on on Eclipse
 
 Program Arguments: 'nodes' 'edges' 'output_folder' 'number_of_iterations'
 
 Example: "nodes.txt edges.txt output 5"
 
-##To run on EC2
+## To run on EC2
 Steps to run on EC2:
 
 1.  Login to cluster
@@ -16,5 +16,5 @@ Steps to run on EC2:
 5.  To run (example), type: hadoop jar PageRank.jar nodes.txt edges.txt output 5
 
 
-###Enjoy, and happy hadooping :)
+### Enjoy, and happy hadooping :)
 
